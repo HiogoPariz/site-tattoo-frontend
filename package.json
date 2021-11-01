@@ -1,22 +1,53 @@
 {
   "name": "site-tattoo",
   "private": true,
+  "repository": {
+    "url": "https://github.com/HiogoPariz/site-tattoo.git"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "semantic-release": "semantic-release"
   },
   "dependencies": {
     "next": "12.0.2",
+    "next-images": "^1.8.2",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-dom": "17.0.2",
+    "styled-components": "^5.3.3",
+    "swr": "^1.0.1"
   },
   "devDependencies": {
+    "@commitlint/cli": "^13.2.1",
+    "@commitlint/config-conventional": "^13.2.0",
+    "@semantic-release/changelog": "^6.0.1",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/github": "^8.0.1",
+    "@semantic-release/release-notes-generator": "^10.0.2",
     "@types/node": "16.11.6",
     "@types/react": "17.0.33",
-    "eslint": "7",
+    "@types/styled-components": "^5.1.15",
+    "@typescript-eslint/eslint-plugin": "^5.2.0",
+    "@typescript-eslint/parser": "^5.2.0",
+    "babel-plugin-inline-react-svg": "^2.0.1",
+    "eslint": "^7.32.0",
     "eslint-config-next": "12.0.2",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-promise": "^5.1.1",
+    "eslint-plugin-react": "^7.26.1",
+    "husky": "^7.0.4",
+    "prettier": "^2.4.1",
+    "semantic-release": "^18.0.0",
     "typescript": "4.4.4"
+  },
+  "version": "0.0.0-development",
+  "publishConfig": {
+    "access": "restricted"
   }
 }
