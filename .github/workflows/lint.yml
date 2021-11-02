@@ -5,7 +5,7 @@ on:
     branches: [ main, staging ]
 
 jobs:
-  build:
+  lint:
 
     runs-on: ${{ matrix.os }}
 
