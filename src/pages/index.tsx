@@ -1,7 +1,7 @@
 import React from 'react'
 import type { NextPage } from 'next'
 import Head from 'next/head'
-import { MainContainer } from '@/containers/main'
+import { MainContainer } from '@/styles/containers/main'
 
 const Home: NextPage = () => {
   return (
@@ -11,10 +11,8 @@ const Home: NextPage = () => {
         <meta name="description" content="Site tattoo" />
         {/* <link rel="icon" href="/favicon.ico" /> */}
       </Head>
-      <MainContainer>
-        <h1>Site Tattoo</h1>
-        <p>Teste site tattoo</p>
-      </MainContainer>
+      <h1>Site Tattoo</h1>
+      <p>Teste site tattoo</p>
     </div>
   )
 }
