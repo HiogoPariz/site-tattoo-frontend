@@ -5,6 +5,7 @@ import { ThemeProvider } from 'styled-components'
 import { Layout } from '@/components/layout'
 import GlobalStyle from '@/styles/global'
 import theme from '@/styles/theme'
+import { Layout } from '@/components/Layout/Layout'
 
 const MyApp: React.FC<AppProps> = ({ Component, pageProps }) => {
   return (
