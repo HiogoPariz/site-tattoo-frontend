@@ -12,4 +12,3 @@ export const MainContainer = styled.div`
   @media ${devices.desktop} {
     grid-template-rows: 'main footer menu';
   }
-`
