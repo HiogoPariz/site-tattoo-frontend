@@ -1,7 +1,6 @@
 import React from 'react'
 import type { NextPage } from 'next'
 import Head from 'next/head'
-import { MainContainer } from '@/styles/containers/main'
 
 const Home: NextPage = () => {
   return (
