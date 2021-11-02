@@ -5,7 +5,7 @@ module.exports = {
   collectCoverage: true,
   collectCoverageFrom: ['components/**/*.tsx', 'pages/**/*.tsx'],
   coverageReporters: ['lcov', 'text'],
-  setupFilesAfterEnv: ['.jest/setup.js'],
+  setupFilesAfterEnv: ['<rootDir>/.jest/setup.js'],
   moduleNameMapper: {
     '^@/(.*)$': '<rootDir>/src/$1'
   },
