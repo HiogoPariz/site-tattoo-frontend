@@ -26,3 +26,6 @@ jobs:
 
       - name: Lint with prettier
         run: yarn format
+
+      - name: Lint commit
+        run: yarn commitlint
