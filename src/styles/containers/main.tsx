@@ -1,5 +1,5 @@
-import styled from 'styled-components'
 import devices from '@/styles/breakpoints'
+import styled from 'styled-components'
 
 export const MainContainer = styled.div`
   display: grid;

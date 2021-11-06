@@ -1,8 +1,7 @@
-import React from 'react'
 import type { NextPage } from 'next'
 import Head from 'next/head'
 
-const Teste: NextPage = () => {
+const Teste: NextPage = ({ children }) => {
   return (
     <div>
       <Head>
@@ -12,6 +11,7 @@ const Teste: NextPage = () => {
       </Head>
       <h1>Teste</h1>
       <p>Teste site tattoo</p>
+      {children}
     </div>
   )
 }
