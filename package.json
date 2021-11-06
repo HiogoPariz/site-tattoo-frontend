@@ -9,10 +9,12 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
+    "format": "prettier --check .",
     "semantic-release": "semantic-release",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
-    "test": "jest"
+    "test": "jest",
+    "prepare": "husky install"
   },
   "dependencies": {
     "babel-plugin-styled-components": "^1.13.3",
@@ -59,7 +61,7 @@
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-promise": "^5.1.1",
     "eslint-plugin-react": "^7.26.1",
-    "husky": "^7.0.4",
+    "husky": "^7.0.0",
     "identity-obj-proxy": "^3.0.0",
     "jest": "^27.3.1",
     "prettier": "^2.4.1",

@@ -1,12 +1,13 @@
-name: Linting workflow
+name: Test workflow
 
 on:
   pull_request:
     - staging
 
 jobs:
-  linting:
+  test:
     runs-on: ubuntu-latest
+
     steps:
       - name: Check out
         uses: actions/checkout@v2
@@ -21,8 +22,5 @@ jobs:
       - name: Install dependencies
         run: yarn install --frozen-lockfile
 
-      - name: Lint with eslint
-        run: yarn lint
-
-      - name: Lint with prettier
-        run: yarn format
+      - name: Test with jest
+        run: yarn test --ci --maxWorkers=100%
