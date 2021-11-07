@@ -1,0 +1,97 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Menu /> should render 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  grid-area: menu;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 1.5rem;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  border-radius: 1rem;
+  padding: 1.5rem;
+}
+
+.c1 {
+  border-radius: 1rem;
+  height: 2rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.c3 {
+  border: 0.1rem solid #A75E55;
+  -webkit-transition: border 200ms;
+  transition: border 200ms;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c3:focus,
+.c3:active {
+  border: 0.1rem solid #6D5063;
+}
+
+<header
+  class="c0"
+>
+  <div
+    class="c1"
+  >
+    <a
+      href="/"
+    >
+      Logo
+    </a>
+    <form
+      class="c2"
+    >
+      <label
+        class="c3"
+      >
+        teste
+        <input
+          class="Menustyles__Input-sc-1pqmg6w-2"
+        />
+      </label>
+      <label
+        class="c3"
+      >
+        teste2
+        <input
+          class="Menustyles__Input-sc-1pqmg6w-2"
+        />
+      </label>
+    </form>
+  </div>
+</header>
+`;
