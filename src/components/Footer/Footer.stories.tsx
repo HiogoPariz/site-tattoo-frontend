@@ -1,7 +1,7 @@
 import React from 'react'
 import { Meta, Story } from '@storybook/react'
 
-import { Footer } from './Footer'
+import { Footer, FooterProps } from './Footer'
 
 const meta: Meta = {
   title: 'Components/Footer',
@@ -9,6 +9,6 @@ const meta: Meta = {
 }
 
 export default meta
-const Template: Story = args => <Footer {...args} />
+const Template: Story<FooterProps> = args => <Footer {...args} />
 
 export const Default = Template.bind({})
