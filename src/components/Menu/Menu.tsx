@@ -1,4 +1,5 @@
 import React from 'react'
+
 import { NavLink } from '@/types'
 import { Input, MainMenu, MenuContainer, MenuForm } from './Menu.styles'
 import Link from 'next/link'

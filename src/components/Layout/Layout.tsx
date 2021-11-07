@@ -1,4 +1,5 @@
 import React from 'react'
+
 import { Menu } from '@/components/Menu/Menu'
 import { Footer, FooterGroup } from '@/components/Footer/Footer'
 import { NavLink } from '@/types'
@@ -19,5 +20,6 @@ export const Layout: React.FC = ({ children }) => {
 
       <Footer groups={footerGroups} />
     </LayoutContainer>
+
   )
 }
