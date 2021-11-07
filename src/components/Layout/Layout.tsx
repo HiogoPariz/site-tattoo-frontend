@@ -20,6 +20,5 @@ export const Layout: React.FC = ({ children }) => {
 
       <Footer groups={footerGroups} />
     </LayoutContainer>
-
   )
 }
