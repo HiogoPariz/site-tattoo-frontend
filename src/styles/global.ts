@@ -26,12 +26,27 @@ export default createGlobalStyle`
   }
 
   body {
-    background-color: ${props => props.theme.colors.background};
-    color: ${props => props.theme.colors.primary};
+    background-color: ${props => props.theme.colors.black};
+    color: ${props => props.theme.colors.white};
     font: 400 1rem Roboto, sens-serif;
+    line-height: 1.5;
+    letter-spacing: 0.1rem;
   }
 
   a {
     color: inherit;
+    font-size: ${({ theme }) => theme.font.sizes.normal};
+    transition: color ${({ theme }) => theme.transitions.time};
+    &:hover {
+      color: ${({ theme }) => theme.colors.secondary};
+    }
+  }
+
+  input {
+    outline: none;
+  }
+
+  ul {
+    list-style: none;
   }
 `
