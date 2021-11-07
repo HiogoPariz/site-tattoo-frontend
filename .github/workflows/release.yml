@@ -1,7 +1,7 @@
 name: Release
 on:
-  push:
-    branches: [ main ]
+  pull_request:
+    branches: [staging]
 jobs:
   release:
     name: Release
@@ -11,12 +11,15 @@ jobs:
         uses: actions/checkout@v2
         with:
           fetch-depth: 0
+
       - name: Setup Node.js
         uses: actions/setup-node@v2
         with:
           node-version: 16
+
       - name: Install dependencies
         run: yarn
+
       - name: Release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

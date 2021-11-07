@@ -1,12 +1,8 @@
 const theme = {
   colors: {
-    background: '#121212',
-    color: '#efefef'
-  },
-  borderRadius: {
-    button: '1rem',
-    card: '1.5rem'
+    primary: '#000000',
+    secondary: '#981133',
+    background: '#e2e2e2'
   }
 }
-
 export default theme

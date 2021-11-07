@@ -1,7 +1,8 @@
+/* eslint-disable import/export */
 import React from 'react'
 import { render } from '@testing-library/react'
-import { ThemeProvider } from 'styled-components'
 import theme from '@/styles/theme'
+import { ThemeProvider } from 'styled-components'
 
 // Add in any providers here if necessary:
 // (ReduxProvider, ThemeProvider, etc)

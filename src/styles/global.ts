@@ -27,8 +27,11 @@ export default createGlobalStyle`
 
   body {
     background-color: ${props => props.theme.colors.background};
-    color: ${props => props.theme.colors.color};
+    color: ${props => props.theme.colors.primary};
     font: 400 1rem Roboto, sens-serif;
   }
 
+  a {
+    color: inherit;
+  }
 `

@@ -1,7 +1,7 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 
-const Home: NextPage = ({ children }) => {
+const Teste: NextPage = ({ children }) => {
   return (
     <div>
       <Head>
@@ -9,11 +9,11 @@ const Home: NextPage = ({ children }) => {
         <meta name="description" content="Site tattoo" />
         {/* <link rel="icon" href="/favicon.ico" /> */}
       </Head>
-      <h1>Site Tattoo</h1>
+      <h1>Teste</h1>
       <p>Teste site tattoo</p>
       {children}
     </div>
   )
 }
 
-export default Home
+export default Teste
