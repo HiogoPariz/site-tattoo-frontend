@@ -25,4 +25,4 @@ jobs:
         run: yarn format
 
       - name: Lint commit
-        run: yarn commitlint
+        run: npx commitlint
