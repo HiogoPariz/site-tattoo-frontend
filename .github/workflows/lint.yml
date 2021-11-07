@@ -23,6 +23,3 @@ jobs:
 
       - name: Lint with prettier
         run: yarn format
-
-      - name: Lint commit
-        run: npx commitlint
