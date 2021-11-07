@@ -1,16 +1,13 @@
 name: Linting workflow
-
 on:
   pull_request:
-    - staging
-
+    branches: [staging]
 jobs:
   linting:
     runs-on: ubuntu-latest
     steps:
       - name: Check out
         uses: actions/checkout@v2
-
       - name: Set up Node 14
         uses: actions/setup-node@v2
         with:

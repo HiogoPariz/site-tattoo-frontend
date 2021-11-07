@@ -2,12 +2,10 @@ name: Test workflow
 
 on:
   pull_request:
-    - staging
-
+    branches: [stagin]
 jobs:
   test:
     runs-on: ubuntu-latest
-
     steps:
       - name: Check out
         uses: actions/checkout@v2
