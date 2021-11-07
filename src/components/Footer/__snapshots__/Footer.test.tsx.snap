@@ -1,9 +1,52 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<Footer /> should render 1`] = `
+.c0 {
+  display: grid;
+  width: 100%;
+  background-color: #000000;
+  grid-area: footer;
+  padding: 1.5rem;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
 <div
-  class="Footerstyles__FooterContainer-sc-z3hj90-0"
+  class="c0"
 >
-  Footer
+  <ul
+    class="c1"
+  >
+    <h2>
+      rotas
+    </h2>
+    <li
+      class="Footerstyles__GroupLink-sc-z3hj90-2"
+    >
+      <a
+        href="/"
+      >
+        Home
+      </a>
+    </li>
+    <li
+      class="Footerstyles__GroupLink-sc-z3hj90-2"
+    >
+      <a
+        href="/teste"
+      >
+        Teste
+      </a>
+    </li>
+  </ul>
 </div>
 `;

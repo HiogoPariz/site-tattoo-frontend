@@ -1,7 +1,7 @@
 name: Release
 on:
   pull_request:
-    branches: [staging]
+    branches: [main]
 jobs:
   release:
     name: Release
